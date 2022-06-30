@@ -3,12 +3,17 @@ import { Dice } from './Dice'
 
 interface Props {
   dice: DiceFace[]
+  onPress?: (index: number) => void
 }
 
-export const DiceDisplay = ({ dice }: Props) => (
+export const DiceDisplay = ({ dice, onPress }: Props) => (
   <>
     {dice.map((face, index) => (
-      <Dice face={face} key={index} />
+      <Dice
+        face={face}
+        key={index}
+        onPress={() => (onPress ? onPress(index) : null)}
+      />
     ))}
   </>
 )
