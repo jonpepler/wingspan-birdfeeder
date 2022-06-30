@@ -13,6 +13,7 @@ export const DiceDisplay = ({ dice, onPress }: Props) => (
         face={face}
         key={index}
         onPress={() => (onPress ? onPress(index) : null)}
+        selectable={!!onPress}
       />
     ))}
   </>
