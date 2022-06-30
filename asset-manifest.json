@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/wingspan-birdfeeder/static/css/main.073c9b0a.css",
-    "main.js": "/wingspan-birdfeeder/static/js/main.1243ff87.js",
+    "main.js": "/wingspan-birdfeeder/static/js/main.4e9d37c1.js",
     "static/js/787.2ac313cb.chunk.js": "/wingspan-birdfeeder/static/js/787.2ac313cb.chunk.js",
-    "static/media/logo.svg": "/wingspan-birdfeeder/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/wingspan-birdfeeder/index.html",
-    "main.073c9b0a.css.map": "/wingspan-birdfeeder/static/css/main.073c9b0a.css.map",
-    "main.1243ff87.js.map": "/wingspan-birdfeeder/static/js/main.1243ff87.js.map",
+    "main.4e9d37c1.js.map": "/wingspan-birdfeeder/static/js/main.4e9d37c1.js.map",
     "787.2ac313cb.chunk.js.map": "/wingspan-birdfeeder/static/js/787.2ac313cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1243ff87.js"
+    "static/js/main.4e9d37c1.js"
   ]
 }
