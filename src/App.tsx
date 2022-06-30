@@ -3,8 +3,7 @@ import { DiceDisplay } from './components/DiceDisplay'
 import { useBirdfeeder } from './hooks/useBirdfeeder'
 
 function App() {
-  const { inBirdfeeder, outsideBirdfeeder, removeDice, resetBirdfeeder } =
-    useBirdfeeder()
+  const { inBirdfeeder, outsideBirdfeeder, removeDice } = useBirdfeeder()
   return (
     <>
       <div>feeder</div>
