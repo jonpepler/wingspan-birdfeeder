@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { version } from '../package.json'
-
 import { Birdfeeder } from './components/Birdfeeder'
 import { DiceDisplay } from './components/DiceDisplay'
 import { useBirdfeeder } from './hooks/useBirdfeeder'
