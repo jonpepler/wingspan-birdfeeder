@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { DiceDisplay } from './components/DiceDisplay'
+import { useBirdfeeder } from './hooks/useBirdfeeder'
 
 function App() {
+  const { inBirdfeeder, outsideBirdfeeder, resetBirdfeeder } = useBirdfeeder()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div>feeder</div>
+      <DiceDisplay dice={inBirdfeeder} />
+      <div>out of feeder</div>
+      <DiceDisplay dice={outsideBirdfeeder} />
+    </>
+  )
 }
 
-export default App;
+export default App
