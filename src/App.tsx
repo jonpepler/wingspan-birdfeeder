@@ -32,7 +32,7 @@ function App() {
 const Display = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
 `
 const OutsideBirdfeeder = styled.div`
   flex: 2;
